@@ -1,0 +1,1 @@
+from mako.template import Template; import sys;sys.stdout.write(Template(filename='parameterize_inst.v.mako').render(n=7)) 
